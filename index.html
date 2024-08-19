@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+
+
+<div class = "header"> 
+    <img src="flag-orpheus-top.png" class="flag-img" onclick="window.location.href = 'https://hackclub.com';">
+    <div class="header-text">
+        ✨ Golden ✨
+    </div>
+</div>
+
+
+<div class="info"> 
+    <br>
+    Sept 14th     
+    <br>
+    <br>
+    a day of coding and learning
+    <br>
+    <br>
+    <button id="signupbtn" onclick="handleButtonClick()"> Join Us!</button>
+
+</div>
+
+
+</html>
+
+
+<style>
+    body {
+    background-color: rgb(172, 20, 20);
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 250%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(231, 214, 64);
+}
+
+.header .flag-img {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    cursor: pointer;
+    width: 15%;
+}
+
+.header .header-text {
+    display: inline-block;
+}
+
+.info {
+    text-align: center;
+    font-size: 200%;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(231, 214, 64);
+}
+
+button {
+    display: block;
+    border-radius: 17px;
+    padding: 10px;
+    padding-inline: 20px;
+    background-color: rgb(231, 214, 64);
+    margin: 20px auto;
+    color: rgb(172, 20, 20);
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button.clicked {
+            background-color: rgb(204, 180, 0);    
+        }
+
+
+
+</style>
+
+<script>
+
+function handleButtonClick() {
+        var btn = document.getElementById("signupbtn");
+        btn.classList.toggle("clicked");
+        window.location.href = 'https://airtable.com/appucgN7GgruOVlmn/shrumqEWK3tOLXYVP';
+    }
+/*
+    var flag = getElementByClassName();
+    flag.addEventListener('click', function(){
+    window.location.href = 'hackclub.com';
+
+})
+    */
+    /*
+    colors:
+    goes with yellow rgb(231, 214, 64):
+    deep purple: rgb(128, 0, 128)
+    teal: rgb(0, 128, 128) or rgb(64, 224, 208)
+    blues: rgb(0, 0, 139) for a deep blue or rgb(0, 102, 204) for a slightly lighter version
+    vibrant purple: rgb(75, 0, 130)
+    goes with red rgb(172, 20, 20):
+
+
+    */
+</script>
