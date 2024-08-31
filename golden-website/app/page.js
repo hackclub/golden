@@ -6,15 +6,27 @@ export default function Home() {
         <img src="https://cloud-9q9fzn6fi-hack-club-bot.vercel.app/0flag-orpheus-top.png" className="top-0 left-5" width="200" alt="orpheus logo" />
     <main className="min-h-screen flex-col items-center justify-between p-24">
       <div>
-        <br />
-        <h1 className="text-6xl text-golden-secondary text-center font-bold">Golden</h1>
-        <h3 className="text-xl text-center font-semibold">A Hack Club Hackathon</h3><br/>
-        <h3 className="text-2xl text-center font-semibold" >September 28th, 2024 <br/> 9:00 am - 4:30 pm</h3>
+        {/* <br /> */}
+        <h1 className="text-8xl text-golden-secondary text-center font-bold">Golden</h1>
+        <h3 className="text-2xl text-center font-semibold">A Hack Club Hackathon</h3><br/>
+        <h3 className="text-4xl text-center font-semibold" >September 28th, 2024 <br/> 9:00 am - 4:30 pm</h3>
         <br/>
       </div>
 
-
+      <br/>
+      <br/>
+      <br/>
+      <div className="sm:mx-5 md:mx-16 lg:mx-48 text-xl text-center font-medium">
+        <p>Golden is a social coding event open to female and nonbinary students. We welcome all high school programmers, artists, dreamers, creators to join us for a day of building, exploring, and sharing.
+        </p>
+        <p>At Golden, you&apos;ll have the freedom to create anything you want, learn from your peers, and explore the city. Golden is organized entirely by girls in the Hack Club community, and we want you to help! Join us to craft Golden into the experience you want it to be.
+        </p>
+      </div>
+<br />
+<br />
+<br />
       <h1 className="text-4xl font-semibold">FAQs</h1>
+      <br/>
       <div id="accordionExample">
   <div
     className="rounded-t-lg border border-neutral-200 bg-white dark:border-neutral-600 dark:bg-body-dark">
@@ -130,14 +142,7 @@ export default function Home() {
 
 
 
-      <br/>
-      <br/>
-      <div>
-        <p>Golden is a social coding event open to female and nonbinary students. We welcome all high school programmers, artists, dreamers, creators to join us for a day of building, exploring, and sharing.
-        </p>
-        <p>At Golden, you&apos;ll have the freedom to create anything you want, learn from your peers, and explore the city. Golden is organized entirely by girls in the Hack Club community, and we want you to help! Join us to craft Golden into the experience you want it to be.
-        </p>
-      </div>
+      
       <div>
       </div>
     </main>
