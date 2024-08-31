@@ -9,9 +9,10 @@ export default function Home() {
         <br />
         <h1 className="text-6xl text-golden-secondary text-center font-bold">Golden</h1>
         <h3 className="text-xl text-center font-semibold">A Hack Club Hackathon</h3><br/>
-        <h3 className="text-2xl text-center font-semibold" >September 14th, 2024</h3>
+        <h3 className="text-2xl text-center font-semibold" >September 28th, 2024 <br/> 9:00 am - 4:30 pm</h3>
         <br/>
       </div>
+
 
       <h1 className="text-4xl font-semibold">FAQs</h1>
       <div id="accordionExample">
@@ -39,7 +40,7 @@ export default function Home() {
       ariaLabelledby="headingOne"
       dataTweParent="#accordionExample">
       <div className="px-5 py-4">
-      A hackathon is a social coding event -- you get a day of mentors and workshops, and lots of free food and swag to build anything you want. Even if you&apos;ve never written a line of code before, we&apos;d love to have you here!
+      A hackathon is a social coding event—you get a day of mentors and workshops, and lots of free food and swag to build anything you want. Even if you&apos;ve never written a line of code before, we&apos;d love to have you here!
       </div>
     </div>
   </div>
@@ -93,7 +94,7 @@ export default function Home() {
       ariaTabCledby="headingThree"
       dataTweParent="#accordionExample">
       <div className="px-5 py-4">
-      While you&apos;re welcome to make what you&apos;d like, we&apos;ll have a web dev, AI&sol;DS track, and a 3D printing activity.
+      While you&apos;re welcome to make what you&apos;d like, we&apos;ll have a web dev, AI/DS track, and a 3D printing activity.
       </div>
     </div>
     <div
@@ -121,7 +122,7 @@ export default function Home() {
       ariaTabCledby="headingFour"
       dataTweParent="#accordionExample">
       <div className="px-5 py-4">
-      Email us at zenab&commat;hackclub.com</div>
+      Email us at zenab@hackclub.com</div>
     </div>
     </div>
   </div>
