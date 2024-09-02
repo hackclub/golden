@@ -22,9 +22,23 @@ export default function Home() {
         <p>At Golden, you&apos;ll have the freedom to create anything you want, learn from your peers, and explore the city. Golden is organized entirely by girls in the Hack Club community, and we want you to help! Join us to craft Golden into the experience you want it to be.
         </p>
       </div>
-<br />
-<br />
-<br />
+      <br />
+      <br />
+      <br />
+
+      {/* code credit @brianna: https://github.com/hackclub/halo/blob/main/halo-website/src/pages/index.astro */}
+      <div className="flex sm:flex-column md:flex-column lg:flex-row gap-5">
+        <img className="rounded-lg sm:max-w-96 lg:w-1/5 object-cover" src="https://cloud-cci0049xc-hack-club-bot.vercel.app/00.jpg" alt="Image at Assemble" />
+        <img className="rounded-lg sm:max-w-96 lg:w-1/5 object-cover" src="https://cloud-cci0049xc-hack-club-bot.vercel.app/1alpine.jpeg" alt="Image at Alpine Hackathon Workshop" />
+        <img className="rounded-lg sm:max-w-96 lg:w-1/5 object-cover" src="https://cloud-cci0049xc-hack-club-bot.vercel.app/5horizon.png" alt="Image at Horizon Hackathon" />
+        <img className="rounded-lg sm:max-w-96 lg:w-1/5 object-cover" src="https://cloud-cci0049xc-hack-club-bot.vercel.app/2epoch.jpg" alt="Image 3" />
+        <img className="rounded-lg sm:max-w-96 lg:w-1/5 object-cover" src="https://cloud-cci0049xc-hack-club-bot.vercel.app/6spark.jpg" alt="Image 5" />
+      </div>
+
+
+      <br />
+      <br />
+      <br />
       <h1 className="text-4xl font-semibold">FAQs</h1>
       <br/>
       <div id="accordionExample">
@@ -139,10 +153,11 @@ export default function Home() {
     </div>
   </div>
 </div>
-
-
-
-      
+<br />
+<br />
+<footer>
+  <h1 className="text-2xl text-center font-semibold">Made with 💕 by Hack Clubbers</h1>
+</footer>
       <div>
       </div>
     </main>
