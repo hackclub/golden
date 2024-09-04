@@ -11,14 +11,14 @@ export default function Home() {
         <h3 className="text-2xl text-center font-semibold">A Hack Club Hackathon</h3><br/>
         <h3 className="text-4xl text-center font-semibold" >September 28th, 2024 <br/> 9:00 am - 4:30 pm</h3>
         <br/>
-<a href="https://airtable.com/appucgN7GgruOVlmn/shrumqEWK3tOLXYVP">
-     <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
-      Sign Up!
-    </button>
-</a>
       </div>
 
-   
+   <a href="https://airtable.com/appucgN7GgruOVlmn/shrumqEWK3tOLXYVP" class="flex justify-center">
+  <button class="bg-red-500 hover:bg-red-700 text-white font-bold text-xl py-2 px-4 rounded">
+    Sign Up!
+  </button>
+</a>
+
 
       <br/>
       <br/>
