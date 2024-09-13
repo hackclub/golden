@@ -2,28 +2,29 @@
 
 export default function Home() {
   return (
-    <div className="bg-golden-primary">
-        <img src="https://cloud-9q9fzn6fi-hack-club-bot.vercel.app/0flag-orpheus-top.png" className="top-0 left-5" width="200" alt="orpheus logo" />
-    <main className="min-h-screen flex-col items-center justify-between p-24">
+    <div className="bg-white">
+        <img src="https://cloud-9q9fzn6fi-hack-club-bot.vercel.app/0flag-orpheus-top.png" className="top-0 left-5" width="200" alt="hack club logo" />
       <div>
         {/* <br /> */}
-        <h1 className="text-8xl text-golden-secondary text-center font-bold">Golden</h1>
-        <h3 className="text-2xl text-center font-semibold">A Hack Club Hackathon</h3><br/>
-        <h3 className="text-4xl text-center font-semibold" >September 28th, 2024 <br/> 9:00 am - 4:30 pm</h3>
+        <div className="flex justify-center items-center">
+          <img src="https://cloud-n268uortu-hack-club-bot.vercel.app/0goldenlogo_crown_goldengate.png" className="" width="150" alt="orpheus w/ golden gate" />
+        </div>
+        <h1 className="text-8xl text-golden-primary text-center font-bold">Golden</h1>
+        <h3 className="text-2xl text-dark-greytext-center font-semibold">A Hack Club Hackathon</h3><br/>
+        <h3 className="text-4xl text-dark-grey text-center font-semibold" >September 28th, 2024 <br/> 9:00 am - 4:30 pm</h3>
         <br/>
       </div>
 
    <a href="https://airtable.com/appucgN7GgruOVlmn/shrumqEWK3tOLXYVP" class="flex justify-center">
-  <button class="bg-red-500 hover:bg-red-700 text-white font-bold text-xl py-2 px-4 rounded">
-    Sign Up!
-  </button>
-</a>
+    <button class="bg-red-500 hover:bg-red-700 text-white font-bold text-xl py-2 px-4 rounded">
+      Sign Up!
+    </button>
+    </a>
 
-
       <br/>
       <br/>
       <br/>
-      <div className="sm:mx-5 md:mx-16 lg:mx-48 text-xl text-center font-medium">
+      <div className="sm:mx-5 md:mx-16 lg:mx-48 text-xl text-dark-grey text-center font-medium">
         <p>Golden is a social coding event open to female and nonbinary students. We welcome all high school programmers, artists, dreamers, creators to join us for a day of building, exploring, and sharing.
         </p>
         <p>At Golden, you&apos;ll have the freedom to create anything you want, learn from your peers, and explore the city. Golden is organized entirely by girls in the Hack Club community, and we want you to help! Join us to craft Golden into the experience you want it to be.
@@ -34,26 +35,26 @@ export default function Home() {
       <br />
 
       {/* code credit @brianna: https://github.com/hackclub/halo/blob/main/halo-website/src/pages/index.astro */}
-      <div className="flex sm:flex-column md:flex-column lg:flex-row gap-5">
-        <img className="rounded-lg sm:max-w-96 lg:w-1/5 object-cover" src="https://cloud-cci0049xc-hack-club-bot.vercel.app/00.jpg" alt="Image at Assemble" />
-        <img className="rounded-lg sm:max-w-96 lg:w-1/5 object-cover" src="https://cloud-cci0049xc-hack-club-bot.vercel.app/1alpine.jpeg" alt="Image at Alpine Hackathon Workshop" />
-        <img className="rounded-lg sm:max-w-96 lg:w-1/5 object-cover" src="https://cloud-cci0049xc-hack-club-bot.vercel.app/5horizon.png" alt="Image at Horizon Hackathon" />
-        <img className="rounded-lg sm:max-w-96 lg:w-1/5 object-cover" src="https://cloud-cci0049xc-hack-club-bot.vercel.app/2epoch.jpg" alt="Image 3" />
-        <img className="rounded-lg sm:max-w-96 lg:w-1/5 object-cover" src="https://cloud-cci0049xc-hack-club-bot.vercel.app/6spark.jpg" alt="Image 5" />
+      <div className="flex sm:flex-column md:flex-column lg:flex-row gap-5 pl-16">
+        <img className="rounded-lg sm:max-w-96 lg:w-1/6 object-cover" src="https://cloud-cci0049xc-hack-club-bot.vercel.app/00.jpg" alt="Image at Assemble" />
+        <img className="rounded-lg sm:max-w-96 lg:w-1/6 object-cover" src="https://cloud-cci0049xc-hack-club-bot.vercel.app/1alpine.jpeg" alt="Image at Alpine Hackathon Workshop" />
+        <img className="rounded-lg sm:max-w-96 lg:w-1/6 object-cover" src="https://cloud-cci0049xc-hack-club-bot.vercel.app/5horizon.png" alt="Image at Horizon Hackathon" />
+        <img className="rounded-lg sm:max-w-96 lg:w-1/6 object-cover" src="https://cloud-cci0049xc-hack-club-bot.vercel.app/2epoch.jpg" alt="Image 3" />
+        <img className="rounded-lg sm:max-w-96 lg:w-1/6 object-cover" src="https://cloud-cci0049xc-hack-club-bot.vercel.app/6spark.jpg" alt="Image 5" />
       </div>
 
-
       <br />
       <br />
       <br />
+      <main className="min-h-screen flex-col items-center justify-between px-24">
       <h1 className="text-4xl font-semibold">FAQs</h1>
       <br/>
-      <div id="accordionExample">
+      <div id="accordionExample" className="text-dark-grey rounded-lg">
   <div
-    className="rounded-t-lg border border-neutral-200 bg-white dark:border-neutral-600 dark:bg-body-dark">
+    className="rounded-t-lg border border-neutral-200 bg-golden-tertiary">
     <h2 className="mb-0" id="headingOne">
     <button
-        className="group relative flex w-full items-center rounded-t-lg border-0 bg-white px-5 py-4 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none dark:bg-body-dark dark:text-white [&:not([data-twe-collapse-collapsed])]:bg-white [&:not([data-twe-collapse-collapsed])]:text-primary [&:not([data-twe-collapse-collapsed])]:shadow-border-b dark:[&:not([data-twe-collapse-collapsed])]:bg-surface-dark dark:[&:not([data-twe-collapse-collapsed])]:text-primary dark:[&:not([data-twe-collapse-collapsed])]:shadow-white/10 "
+        className="group relative flex w-full items-center rounded-t-lg border-0 bg-golden-tertiary px-5 py-4 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none"
         type="button"
         dataTweCollapseInit
         dataTweCollapseCollapsed
@@ -78,10 +79,10 @@ export default function Home() {
     </div>
   </div>
   <div
-    className="border border-t-0 border-neutral-200 bg-white dark:border-neutral-600 dark:bg-body-dark">
+    className="border border-t-0 border-neutral-200 bg-golden-tertiary">
     <h2 className="mb-0" id="headingTwo">
       <button
-        className="group relative flex w-full items-center border-0 bg-white px-5 py-4 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none dark:bg-body-dark dark:text-white [&:not([data-twe-collapse-collapsed])]:bg-white [&:not([data-twe-collapse-collapsed])]:text-primary [&:not([data-twe-collapse-collapsed])]:shadow-border-b dark:[&:not([data-twe-collapse-collapsed])]:bg-surface-dark dark:[&:not([data-twe-collapse-collapsed])]:text-primary dark:[&:not([data-twe-collapse-collapsed])]:shadow-white/10 "
+        className="group relative flex w-full items-center border-0 bg-golden-tertiary px-5 py-4 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none"
         type="button"
         dataTweCollapseInit
         dataTweCollapse-collapsed
@@ -103,10 +104,10 @@ export default function Home() {
     </div>
   </div>
   <div
-    className="border border-t-0 border-neutral-200 bg-white dark:border-neutral-600 dark:bg-body-dark">
+    className="border border-t-0 border-neutral-200 bg-golden-tertiary">
     <h2 className="mb-0" id="headingThree">
       <button
-        className="data-[twe-collapse-collapsed] group relative flex w-full items-center border-0 bg-white px-5 py-4 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none data-[twe-collapse-collapsed]:rounded-b-lg dark:bg-body-dark dark:text-white [&:not([data-twe-collapse-collapsed])]:bg-white [&:not([data-twe-collapse-collapsed])]:text-primary [&:not([data-twe-collapse-collapsed])]:shadow-border-b dark:[&:not([data-twe-collapse-collapsed])]:bg-surface-dark dark:[&:not([data-twe-collapse-collapsed])]:text-primary  dark:[&:not([data-twe-collapse-collapsed])]:shadow-white/10"
+        className="data-[twe-collapse-collapsed] group relative flex w-full items-center border-0 bg-golden-tertiary px-5 py-4 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none data-[twe-collapse-collapsed]:rounded-b-lg"
         type="button"
         dataTweCollapseInit
         dataTweCollapseCollapsed
@@ -131,10 +132,10 @@ export default function Home() {
       </div>
     </div>
     <div
-    className="rounded-b-lg border border-neutral-200 bg-white dark:border-neutral-600 dark:bg-body-dark">
+    className="rounded-b-lg border border-neutral-200 bg-golden-tertiary">
     <h2 className="accordion-header mb-0" id="headingFour">
       <button
-        className="group relative flex w-full items-center border-0 bg-white px-5 py-4 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none dark:bg-body-dark dark:text-white [&:not([data-twe-collapse-collapsed])]:bg-white [&:not([data-twe-collapse-collapsed])]:text-primary [&:not([data-twe-collapse-collapsed])]:shadow-border-b dark:[&:not([data-twe-collapse-collapsed])]:bg-surface-dark dark:[&:not([data-twe-collapse-collapsed])]:text-primary dark:[&:not([data-twe-collapse-collapsed])]:shadow-white/10 "
+        className="group relative flex w-full items-center border-0 bg-golden-tertiary px-5 py-4 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none"
         type="button"
         dataTweCollapseInit
         dataTweCollapse-collapsed
@@ -163,8 +164,11 @@ export default function Home() {
 <br />
 <br />
 <footer>
-  <h1 className="text-2xl text-center font-semibold">Made with 💕 by Hack Clubbers</h1>
+  <h1 className="text-2xl text-center text-dark-grey font-semibold">Made with 💕 by Hack Clubbers</h1>
 </footer>
+<br />
+<br />
+
       <div>
       </div>
     </main>

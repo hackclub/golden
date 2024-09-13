@@ -16,6 +16,9 @@ module.exports = {
       colors: {
         'golden-primary': '#F1DD81',
         'golden-secondary': '#7D703A',
+        'golden-tertiary': '#EDE0A6',
+        'dark-grey': '#282725',
+
       },
     },
   },
