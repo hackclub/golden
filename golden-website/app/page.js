@@ -35,12 +35,12 @@ export default function Home() {
       <br />
 
       {/* code credit @brianna: https://github.com/hackclub/halo/blob/main/halo-website/src/pages/index.astro */}
-      <div className="flex sm:flex-column md:flex-column lg:flex-row gap-5 pl-16">
-        <img className="rounded-lg sm:max-w-96 lg:w-1/6 object-cover" src="https://cloud-cci0049xc-hack-club-bot.vercel.app/00.jpg" alt="Image at Assemble" />
-        <img className="rounded-lg sm:max-w-96 lg:w-1/6 object-cover" src="https://cloud-cci0049xc-hack-club-bot.vercel.app/1alpine.jpeg" alt="Image at Alpine Hackathon Workshop" />
-        <img className="rounded-lg sm:max-w-96 lg:w-1/6 object-cover" src="https://cloud-cci0049xc-hack-club-bot.vercel.app/5horizon.png" alt="Image at Horizon Hackathon" />
-        <img className="rounded-lg sm:max-w-96 lg:w-1/6 object-cover" src="https://cloud-cci0049xc-hack-club-bot.vercel.app/2epoch.jpg" alt="Image 3" />
-        <img className="rounded-lg sm:max-w-96 lg:w-1/6 object-cover" src="https://cloud-cci0049xc-hack-club-bot.vercel.app/6spark.jpg" alt="Image 5" />
+      <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center items-center gap-5 p-4">
+        <img className="rounded-lg w-full sm:w-1/2 md:w-1/3 lg:w-1/6 object-cover h-40 sm:h-48 md:h-52 lg:h-60" src="https://cloud-cci0049xc-hack-club-bot.vercel.app/00.jpg" alt="Image at Assemble" />
+        <img className="rounded-lg w-full sm:w-1/2 md:w-1/3 lg:w-1/6 object-cover h-40 sm:h-48 md:h-52 lg:h-60" src="https://cloud-cci0049xc-hack-club-bot.vercel.app/1alpine.jpeg" alt="Image at Alpine Hackathon Workshop" />
+        <img className="rounded-lg w-full sm:w-1/2 md:w-1/3 lg:w-1/6 object-cover h-40 sm:h-48 md:h-52 lg:h-60" src="https://cloud-cci0049xc-hack-club-bot.vercel.app/5horizon.png" alt="Image at Horizon Hackathon" />
+        <img className="rounded-lg w-full sm:w-1/2 md:w-1/3 lg:w-1/6 object-cover h-40 sm:h-48 md:h-52 lg:h-60" src="https://cloud-cci0049xc-hack-club-bot.vercel.app/2epoch.jpg" alt="Image 3" />
+        <img className="rounded-lg w-full sm:w-1/2 md:w-1/3 lg:w-1/6 object-cover h-40 sm:h-48 md:h-52 lg:h-60" src="https://cloud-cci0049xc-hack-club-bot.vercel.app/6spark.jpg" alt="Image 5" />
       </div>
 
       <br />
