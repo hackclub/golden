@@ -24,4 +24,6 @@ Our finances are open-sourced here: https://hcb.hackclub.com/golden
 
 ## Meet the Team
 The amazing team that put this event together:
-Krisha, Ester, Kayla, Ria, Fiona, Fatimah, Audrey, and Reva
+Krisha, Ester, Kayla, Ria, Sarah, Fiona, Fatimah, Audrey, and Reva
+
+Special thanks to Zenab, Melanie, and Tom Preston-Werner
