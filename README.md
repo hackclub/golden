@@ -17,6 +17,7 @@ Held at the Lighthouse in SF
 
 There were two project tracks, and a mini-project. The attendees worked on one project in the morning, the mini-project in the early afternoon, and the second project late afternoon. By the end of the day, each attendee made 3 projects!
 
+#### Workshops
 
 ## Theme, Decor, Merch
 
