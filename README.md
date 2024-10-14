@@ -21,6 +21,8 @@ There were two project tracks, and a mini-project. The attendees worked on one p
 
 ## Theme, Decor, Merch
 
+For theme colors, we used a color scheme generator to determine the official colors of Golden. There were many drafts made for the official Orpheus mascot of Golden, but we settled on a very chunky, cute Orpheus with a golden crown. For decor, we ordered yellow balloons and streamers. For merchandise, we ordered jackets for the team which included the Orpheus design on the back with the word "Golden" and a crown on the front.
+
 ## Budget
 
 Our finances are open-sourced here: https://hcb.hackclub.com/golden
