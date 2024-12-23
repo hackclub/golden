@@ -31,8 +31,6 @@ Reva also hosted a mini 3D printing workshop and attendees CADed golden rings on
 
 One of the best parts of the event was lunchtime, where our mentors were mingling with attendees and sharing their wisdom :pizza:
 
-#### Workshops
-
 ## Theme, Decor, Merch
 For theme colors, we used a color scheme generator to determine the official colors of Golden. There were many drafts made for the official Orpheus mascot of Golden, but we settled on a very chunky, cute Orpheus with a golden crown. For decor, we ordered yellow balloons and streamers. For merchandise, we ordered jackets for the team which included the Orpheus design on the back with the word "Golden" and a crown on the front.
 
