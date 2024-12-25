@@ -14,7 +14,8 @@ If you have any questions, reach out to @reva on the slack.
 
 ### The Dinner
 The night before the hackathon, we had an amazing Women in Tech dinner where 10 mentors shared their inspirational stories and invaluable advice. We parted with newfound insights, Linkdens, and lots of leftovers. Special thanks to Tom Preston-Werner for providing us with the venue, The Light House in SF, and being such a gracious host!
-
+https://cloud-mzppi0dci-hack-club-bot.vercel.app/0img_3856__1_.jpg
+<img src="https://cloud-mzppi0dci-hack-club-bot.vercel.app/0img_3856__1_.jpg" width="500px">
 ### The Hackathon
 
 On Saturday, we hosted our hackathon and all attendees participated in 4 workshops and created 3 final projects each!
