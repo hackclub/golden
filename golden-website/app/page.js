@@ -15,9 +15,9 @@ export default function Home() {
         <br/>
       </div>
 
-   <a href="https://airtable.com/appucgN7GgruOVlmn/shrumqEWK3tOLXYVP" class="flex justify-center">
+   <a href="https://github.com/hackclub/golden" class="flex justify-center">
     <button class="bg-red-500 hover:bg-red-700 text-white font-bold text-xl py-2 px-4 rounded">
-      Sign Up!
+      Check out our repo!
     </button>
     </a>
 
